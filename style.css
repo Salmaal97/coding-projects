@@ -1,0 +1,82 @@
+*{
+   
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+border: 3px solid black;
+width: 2000px; 
+max-width: 1200px;
+margin: 0 auto ;
+
+}
+
+header{
+background: coral;
+}
+h1{
+    color:rgb(55, 60, 63); 
+    margin: 0; 
+}
+
+h2{
+    color: burlywood
+    margin: 0
+
+}
+
+img{
+    max-width: 100%;
+}
+.special-headline{
+    color: chartreuse
+
+}
+
+nav {
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column
+}
+section{
+    border: 3px solid black;
+    background: white; 
+    width: 100%; 
+    padding: 10px;
+}
+
+input {
+    display: block;
+    margin: auto;
+}
+
+input#email {}
+
+fieldset {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) { 
+    main{
+        
+        flex-direction: row
+    }
+
+section{
+    width: 50%;
+
+}
+
+@media screen and (min-width: 1200px){
+    section{
+    margin: 0 50px; 
+
+}
+
+
